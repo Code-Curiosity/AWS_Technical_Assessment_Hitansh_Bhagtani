@@ -35,6 +35,10 @@ Provision an HA web tier: an internet-facing ALB in public subnets routing to a 
 
 ![HA Server](./screenshots/Screenshot%202025-12-02%20165603.png)
 
+### Ngix Server Availablity
+
+![Ngix Server](./screenshots/Screenshot%202025-12-02%20153848.png)
+
 ---
 
 ## How to run (optional)
