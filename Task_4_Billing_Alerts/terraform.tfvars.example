@@ -1,0 +1,13 @@
+# Example - DO NOT COMMIT real email or secrets to public repos.
+region = "us-east-1"
+
+# Replace with your email locally (do NOT commit)
+alert_email = "your.email@example.com"
+
+# Threshold in USD (1 USD ≈ ₹100 at time of writing)
+threshold_usd = 1
+
+# Alarm period (6 hours)
+period_seconds = 21600
+
+alarm_name = "Billing_Alert_Over_1USD"

@@ -1,0 +1,13 @@
+# Example variables for Task 2 EC2 Deployment
+
+# AWS region where resources will be created
+region = "eu-north-1"
+
+# Your IP address for SSH access (replace with YOUR_IP/32 when using)
+ssh_allowed_cidr = "YOUR_PUBLIC_IP/32"
+
+# Existing key pair name created manually in AWS Console
+key_name = "Your_Key_Name"
+
+# (Optional) HTML resume can be overridden here if needed
+# resume_html = file("resume.html") 

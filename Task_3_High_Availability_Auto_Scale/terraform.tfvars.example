@@ -1,0 +1,19 @@
+# Example variables - replace placeholder values only if you run terraform
+region = "eu-north-1"
+vpc_name = "Hitansh_Bhagatni_VPC"
+
+public_subnet_name_1  = "Hitansh_Bhagatni_Public_Subnet_1"
+public_subnet_name_2  = "Hitansh_Bhagatni_Public_Subnet_2"
+
+private_subnet_name_1 = "Hitansh_Bhagatni_Private_Subnet_1"
+private_subnet_name_2 = "Hitansh_Bhagatni_Private_Subnet_2"
+
+instance_type = "t3.micro"
+key_name = "Hitansh_Bhagatni_Key"
+
+# optional message that will be written into nginx index
+resume_message = "Welcome to HA Nginx Server (Auto Scaling) - Hitansh Bhagatni"
+
+asg_min = 1
+asg_desired = 2
+asg_max = 3
